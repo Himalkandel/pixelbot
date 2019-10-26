@@ -2,7 +2,6 @@ var Discord = require("discord.js");
 var bot = new Discord.Client();
 
 const toTime = require('to-time');
-const token = "NjM2NzM0NjQ0NzY2NzY5MTYy.XbN96A.1ApTSah_v8FwXN-rdvA0OFf7yGI";
 const prefix = "!"
 
 bot.on('ready', () => {
